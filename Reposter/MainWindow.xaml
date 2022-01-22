@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         WindowState="Maximized" Title="MainWindow" Height="450" Width="800">
     <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Height="25" Background="Green">
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Bottom" Height="50" Background="Blue">
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Left" Width="75" Background="Cyan">
+        </StackPanel>
+        <StackPanel DockPanel.Dock="RIght" Width="75" Background="Pink">
+        </StackPanel>
         <StackPanel DockPanel.Dock="Top" Background="Red">
             <ScrollViewer>
                 <StackPanel x:Name="groups">

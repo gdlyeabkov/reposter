@@ -115,8 +115,20 @@ namespace Reposter
                         {
                             StackPanel newGroup = new StackPanel();
                             newGroup.Orientation = Orientation.Horizontal;
-                            newGroup.Height = 50;
+                            newGroup.Height = 75;
+                            Image newGroupImage = new Image();
+                            newGroupImage.Margin = new Thickness(15);
+                            BitmapImage bitmapImage = new BitmapImage();
+                            bitmapImage.BeginInit();
+                            string groupPhotoUrl = group.photo_50;
+                            bitmapImage.UriSource = new Uri(groupPhotoUrl, UriKind.Absolute);
+                            bitmapImage.EndInit();
+                            newGroupImage.Source = bitmapImage;
+                            newGroupImage.Width = 50;
+                            newGroupImage.Height = 50;
+                            newGroup.Children.Add(newGroupImage);
                             CheckBox newGroupCheckbox = new CheckBox();
+                            newGroupCheckbox.VerticalAlignment = VerticalAlignment.Center;
                             newGroupCheckbox.Margin = new Thickness(15);
                             string parsedGroupId = "-" + group.id;
                             newGroupCheckbox.DataContext = parsedGroupId;
@@ -125,6 +137,7 @@ namespace Reposter
                             TextBlock newGroupName = new TextBlock();
                             newGroupName.Margin = new Thickness(15);
                             newGroupName.Text = group.name;
+                            newGroupName.VerticalAlignment = VerticalAlignment.Center;
                             newGroup.Children.Add(newGroupName);
                             groups.Children.Add(newGroup);
                         }
