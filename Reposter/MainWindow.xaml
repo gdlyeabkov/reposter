@@ -8,8 +8,26 @@
         WindowState="Maximized" Title="MainWindow" Height="450" Width="800">
     <DockPanel>
         <StackPanel DockPanel.Dock="Top" Background="Red">
-            <TextBox x:Name="request" />
-            <Button Content="Отправить" Click="SendPostHandler" />
+            <ScrollViewer>
+                <StackPanel x:Name="groups">
+                    <!--
+                    <StackPanel Background="Transparent" Height="50" Orientation="Horizontal">
+                        <CheckBox DataContext="-210273208" Click="ToggleGroupHandler" Margin="15" />
+                        <TextBlock Margin="15" Text="Имя группы" />
+                    </StackPanel>
+                    <StackPanel Background="Transparent" Height="50" Orientation="Horizontal">
+                        <CheckBox Margin="15" />
+                        <TextBlock Margin="15" Text="Имя группы" />
+                    </StackPanel>
+                    <StackPanel Background="Transparent" Height="50" Orientation="Horizontal">
+                        <CheckBox Margin="15" />
+                        <TextBlock Margin="15" Text="Имя группы" />
+                    </StackPanel>
+                    -->
+                </StackPanel>
+            </ScrollViewer>
+            <TextBox x:Name="request" Width="325" Height="50" AcceptsReturn="True" />
+            <Button x:Name="sendPostBtn" IsEnabled="False" Width="85" Margin="0, 15" Content="Отправить" Click="SendPostHandler" />
         </StackPanel>
     </DockPanel>
 </Window>
