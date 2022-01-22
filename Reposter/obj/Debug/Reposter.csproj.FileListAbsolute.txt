@@ -1,0 +1,16 @@
+C:\wpf_projects\Reposter\Reposter\bin\Debug\Reposter.exe.config
+C:\wpf_projects\Reposter\Reposter\bin\Debug\Reposter.exe
+C:\wpf_projects\Reposter\Reposter\bin\Debug\Reposter.pdb
+C:\wpf_projects\Reposter\Reposter\obj\Debug\Reposter.csproj.AssemblyReference.cache
+C:\wpf_projects\Reposter\Reposter\obj\Debug\Reposter.csproj.SuggestedBindingRedirects.cache
+C:\wpf_projects\Reposter\Reposter\obj\Debug\MainWindow.g.cs
+C:\wpf_projects\Reposter\Reposter\obj\Debug\App.g.cs
+C:\wpf_projects\Reposter\Reposter\obj\Debug\Reposter_MarkupCompile.cache
+C:\wpf_projects\Reposter\Reposter\obj\Debug\Reposter_MarkupCompile.lref
+C:\wpf_projects\Reposter\Reposter\obj\Debug\MainWindow.baml
+C:\wpf_projects\Reposter\Reposter\obj\Debug\Reposter.g.resources
+C:\wpf_projects\Reposter\Reposter\obj\Debug\Reposter.Properties.Resources.resources
+C:\wpf_projects\Reposter\Reposter\obj\Debug\Reposter.csproj.GenerateResource.cache
+C:\wpf_projects\Reposter\Reposter\obj\Debug\Reposter.csproj.CoreCompileInputs.cache
+C:\wpf_projects\Reposter\Reposter\obj\Debug\Reposter.exe
+C:\wpf_projects\Reposter\Reposter\obj\Debug\Reposter.pdb
