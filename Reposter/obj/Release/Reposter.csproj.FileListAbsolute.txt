@@ -1,0 +1,16 @@
+C:\wpf_projects\Reposter\Reposter\bin\Release\Reposter.exe.config
+C:\wpf_projects\Reposter\Reposter\bin\Release\Reposter.exe
+C:\wpf_projects\Reposter\Reposter\bin\Release\Reposter.pdb
+C:\wpf_projects\Reposter\Reposter\obj\Release\Reposter.csproj.AssemblyReference.cache
+C:\wpf_projects\Reposter\Reposter\obj\Release\Reposter.csproj.SuggestedBindingRedirects.cache
+C:\wpf_projects\Reposter\Reposter\obj\Release\MainWindow.g.cs
+C:\wpf_projects\Reposter\Reposter\obj\Release\App.g.cs
+C:\wpf_projects\Reposter\Reposter\obj\Release\Reposter_MarkupCompile.cache
+C:\wpf_projects\Reposter\Reposter\obj\Release\Reposter_MarkupCompile.lref
+C:\wpf_projects\Reposter\Reposter\obj\Release\MainWindow.baml
+C:\wpf_projects\Reposter\Reposter\obj\Release\Reposter.g.resources
+C:\wpf_projects\Reposter\Reposter\obj\Release\Reposter.Properties.Resources.resources
+C:\wpf_projects\Reposter\Reposter\obj\Release\Reposter.csproj.GenerateResource.cache
+C:\wpf_projects\Reposter\Reposter\obj\Release\Reposter.csproj.CoreCompileInputs.cache
+C:\wpf_projects\Reposter\Reposter\obj\Release\Reposter.exe
+C:\wpf_projects\Reposter\Reposter\obj\Release\Reposter.pdb

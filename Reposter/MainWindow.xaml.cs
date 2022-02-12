@@ -26,8 +26,8 @@ namespace Reposter
     {
 
         public SpeechSynthesizer debugger;
-        public string accessToken = "b2228cf06accc6c34160682dcd46e6232378bb04e996c85a5af76c14585a24b888266908af45d10de1fa8";
-        public string vkUserId = "382177113";
+        public string accessToken = "f6896028bd9c6e1723b5da4699e7e897f77d6ca6f9c72da327ce7b497969951f8da04686de562355c783b";
+        public string vkUserId = "662354614";
         public string vkGroupId = "-210273208";
         public List<String> publishedGroups;
 
@@ -153,6 +153,7 @@ namespace Reposter
 
         private void ToggleGroupHandler (object sender, RoutedEventArgs e)
         {
+            sendPostBtn.IsEnabled = true;
             CheckBox checkBox = ((CheckBox)(sender));
             bool isGroupSelect = ((bool)(checkBox.IsChecked));
             string currentGroupId = ((string)(checkBox.DataContext));

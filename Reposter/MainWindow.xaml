@@ -16,8 +16,8 @@
         <StackPanel DockPanel.Dock="RIght" Width="75" Background="Pink">
         </StackPanel>
         <StackPanel DockPanel.Dock="Top" Background="Red">
-            <ScrollViewer>
-                <StackPanel x:Name="groups">
+            <ScrollViewer CanContentScroll="True" IsEnabled="True" VerticalScrollBarVisibility="Visible">
+                <StackPanel Height="600" x:Name="groups" Orientation="Vertical">
                     <!--
                     <StackPanel Background="Transparent" Height="50" Orientation="Horizontal">
                         <CheckBox DataContext="-210273208" Click="ToggleGroupHandler" Margin="15" />
